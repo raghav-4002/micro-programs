@@ -17,6 +17,8 @@ main(void)
 
     for(i = 1; i <= list_size; i++) {
         new++;
+        info = realloc(info, sizeof(*info) * (new + 1));
+        link = realloc(link, sizeof(new) * (new + 1));
 
         if(start == NONE) {
             start = new, ptr = new;
@@ -25,11 +27,9 @@ main(void)
             ptr = link[ptr];
         }
 
-        info = realloc(info, sizeof(new) * (new + 1));
         printf("Enter item %d: ", i);
         scanf("%d", &info[ptr]);
 
-        link = realloc(link, sizeof(new) * (new + 1));
         link[ptr] = NONE;
     }
 
