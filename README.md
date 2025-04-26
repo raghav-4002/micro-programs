@@ -6,6 +6,9 @@
 1. [Quicksort](https://github.com/raghav-4002/micro-programs/blob/main/algorithms/sorting-algorithms/quicksort.c)
 2. [Insertion Sort](https://github.com/raghav-4002/micro-programs/blob/main/algorithms/sorting-algorithms/insertion_sort.c)
 3. [Selection Sort](https://github.com/raghav-4002/micro-programs/blob/main/algorithms/sorting-algorithms/selection_sort.c)
+### [Misc Algorithms](https://github.com/raghav-4002/micro-programs/tree/main/algorithms/misc_algorithms):
+1. [Josephus problem implementation (in C)](https://github.com/raghav-4002/micro-programs/blob/main/algorithms/misc_algorithms/josephus-problem.c)
+2. [Shunting yard algorithms implementation (in C)](https://github.com/raghav-4002/micro-programs/blob/main/algorithms/misc_algorithms/%20shuntin-yard.c)
 
 ---
 ## Data structures:
