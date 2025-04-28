@@ -17,3 +17,7 @@
 
 ### Strings:
 1. [Palindrome test](https://github.com/raghav-4002/micro-programs/tree/main/data-structures/strings/palindrome_test)
+
+### [Trees](https://github.com/raghav-4002/micro-programs/tree/main/data-structures/trees):
+1. [BST Creation](https://github.com/raghav-4002/micro-programs/blob/main/data-structures/trees/bst_creation.c)
+2. [Inorder traversal](https://github.com/raghav-4002/micro-programs/blob/main/data-structures/trees/inorder.c)
