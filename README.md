@@ -15,6 +15,9 @@
 ### Linked Lists:
 1. [Array representation](https://github.com/raghav-4002/micro-programs/tree/main/data-structures/linked-lists/array-representation)
 
+### Queues:
+1. [Priority queues in C](https://github.com/raghav-4002/micro-programs/blob/main/data-structures/queues/priority_queue.c)
+
 ### Strings:
 1. [Palindrome test](https://github.com/raghav-4002/micro-programs/tree/main/data-structures/strings/palindrome_test)
 
