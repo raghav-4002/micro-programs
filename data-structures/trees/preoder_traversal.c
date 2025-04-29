@@ -22,10 +22,12 @@ preorder(struct node *root)
 
     while(ptr != NULL) {
         printf("%d ", ptr->info);
+
         if(ptr->right) {
             top++;
             stack[top] = ptr->right;
         }
+
         ptr = ptr->left;
     }
 

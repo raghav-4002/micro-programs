@@ -26,18 +26,22 @@ inorder(struct node *root)
         ptr = ptr->left;
     }
 
-    while(stack[top]->right == NULL && top != -1) {
-        printf("%d ", stack[top]->info);
-        top--;
-    }
-
-    printf("%d ", stack[top]->info);
-    root = stack[top]->right;
+    ptr = stack[top];
     top--;
 
-    if(top == -1) return;
-    
-    inorder(root);
+    while(1) {
+        printf("%d ", ptr->info);
+
+        if(ptr->right != NULL) {
+            root = ptr->right;
+            inorder(root);
+        }
+
+        if(top == -1) return;
+
+        ptr = stack[top];
+        top--;
+    }
 }
 
 
@@ -91,7 +95,6 @@ main(void)
 
     printf("Inorder: ");
     inorder(root);
-    root = stack[top]->right;
 
     return 0;
 }
